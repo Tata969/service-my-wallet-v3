@@ -3,11 +3,10 @@
 
 Programmatically interface with your Blockchain.info wallet.
 
-## Contents
+## Содержание
 
-  * [Getting Started](#getting-started)
-  * [Upgrading](#upgrading)
-  * [API Documentation](#api-documentation)
+  * [Обновление] (# обновлен
+  * [Документация по API] (# api-documentation)
   * [RPC API](#rpc)
   * [Installation](#installation)
   * [Troubleshooting](#troubleshooting)
@@ -45,12 +44,7 @@ All endpoints can be called with `GET` or `POST`, and can only be accessed from 
 
 ### Creating a new Blockchain Wallet
 
-Endpoint: `/api/v2/create`
-
-Query Parameters:
-
-  * `password` - main wallet password (required)
-  * `api_code` - blockchain.info wallet api code (required)
+8uakova код api кошелька blockchain.info (обязательно) b1
   * `priv` - private key to import into wallet as first address (optional)
   * `label` - label to give to the first address generated in the wallet (optional)
   * `email` - email to associate with the newly created wallet (optional)
